@@ -9,9 +9,9 @@ import styles from './headerContato.module.css'
 const HeaderContact = () => {
     return (
         <>
-            <div className={styles.bgHeader + ` flex items-center gap-2 p-2`}>
+            <div className={styles.bgHeader + ` flex items-center gap-2 p-3`}>
                 <div className="flex items-center flex-1">
-                    <ImageContato />
+                    <ImageContato imgFile="eu.png" />
                 </div>
                 <div className=" flex flex-row flex-grow items-center justify-end">
                     <BiLoaderCircle size={22} color="#919191" />

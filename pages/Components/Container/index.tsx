@@ -5,12 +5,13 @@ import styles from './container.module.css'
 import HeaderContact from './HeaderContact'
 import Consulta from './Consulta';
 import Mensagem from '../Mensagem';
+import HeaderMensagens from './HeaderMensagens';
 
 
 const Container: React.FC = () => {
     return (
         <>
-            <div className={styles.bgContainer + ` container mx-auto flex`}>
+            <div className={styles.bgContainer + ` container mx-auto px-28 flex`}>
                 <div className={styles.bgLeft + ` flex flex-col`}>
                     <HeaderContact />
                     <Notificacao />   
@@ -45,8 +46,8 @@ const Container: React.FC = () => {
                     </div>
                 </div>
 
-                <div className={styles.bgRight}>
-                    <h1>lateral 2 onde ficará as mensagens</h1>
+                <div className={styles.bgRight + ` flex flex-col`}>
+                    <HeaderMensagens />
                 </div>                
             </div>        
         </>
