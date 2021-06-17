@@ -42,7 +42,6 @@ const Container: React.FC = () => {
                             <Element name="lista19"><Mensagem nome="Thiago 1" statusMensagem="v" ultimaMensagem="Última mensagem..." /></Element>
                             <Element name="lista20"><Mensagem nome="Thiago 1" statusMensagem="v" ultimaMensagem="Última mensagem..." /></Element>
                         </Element>
-
                     </div>
                 </div>
 

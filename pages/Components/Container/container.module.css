@@ -11,3 +11,14 @@
     width: 70%;
 }
 
+@media (max-width: 768px) {
+    .bgLeft {
+        width: 50%;
+        border-right: solid 1px #fff;
+    }
+    
+    .bgRight {
+        width: 50%;
+    }
+}
+
