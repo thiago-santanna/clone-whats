@@ -1,0 +1,13 @@
+.bgContainer {
+    margin-top: -80px;
+    min-height: 630px;
+}
+
+.bgLeft {
+    width: 30%;
+    border-right: solid 1px #fff;
+}
+
+.bgRight {
+    width: 70%;
+}
