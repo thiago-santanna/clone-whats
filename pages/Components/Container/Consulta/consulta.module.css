@@ -2,3 +2,15 @@
     background-color: #f6f6f6;
     padding: 1rem 2rem; 
 }
+
+@media (max-width: 640px) {
+    .bgConsulta input {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .bgLeft {
+        width: auto;
+    }
+}

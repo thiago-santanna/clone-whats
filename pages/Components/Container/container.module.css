@@ -11,7 +11,7 @@
     width: 70%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
     .bgLeft {
         width: 50%;
         border-right: solid 1px #fff;
@@ -19,6 +19,17 @@
     
     .bgRight {
         width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .bgLeft {
+        width: 40%;
+        border-right: solid 1px #fff;
+    }
+    
+    .bgRight {
+        width: 60%;
     }
 }
 
