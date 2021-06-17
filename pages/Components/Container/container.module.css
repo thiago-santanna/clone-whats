@@ -11,3 +11,8 @@
 .bgRight {
     width: 70%;
 }
+
+.msgContatos {
+    height: 100px;
+    overflow-y: scroll;
+}

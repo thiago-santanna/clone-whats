@@ -3,6 +3,7 @@ import Notificacao from './Notificacao';
 import styles from './container.module.css'
 import HeaderContact from './HeaderContact'
 import Consulta from './Consulta';
+import Mensagem from '../Mensagem';
 
 
 const Container: React.FC = () => {
@@ -13,8 +14,23 @@ const Container: React.FC = () => {
                     <HeaderContact />
                     <Notificacao />   
                     <Consulta />
-                    <div className="flex-1">
-                        <h1>Lista Mensagens</h1>
+                    <div className={styles.msgContatos +  ` flex-1`}>
+                        <Mensagem nome="Thiago 1" statusMensagem="v" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 2" statusMensagem="v" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 3" statusMensagem="n" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 4" statusMensagem="v" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 1" statusMensagem="v" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 2" statusMensagem="v" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 3" statusMensagem="n" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 4" statusMensagem="v" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 1" statusMensagem="v" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 2" statusMensagem="v" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 3" statusMensagem="n" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 4" statusMensagem="v" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 1" statusMensagem="v" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 2" statusMensagem="v" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 3" statusMensagem="n" ultimaMensagem="Última mensagem..." />
+                        <Mensagem nome="Thiago 4" statusMensagem="v" ultimaMensagem="Última mensagem..." />
                     </div>
                 </div>
 
