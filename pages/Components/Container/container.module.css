@@ -11,6 +11,10 @@
     width: 70%;
 }
 
+.bgMensagemContainer {
+    background-image: url("/bgmessages.png");
+}
+
 @media (max-width: 640px) {
     .bgLeft {
         width: 50%;

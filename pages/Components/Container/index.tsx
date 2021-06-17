@@ -6,6 +6,8 @@ import HeaderContact from './HeaderContact'
 import Consulta from './Consulta';
 import Mensagem from '../Mensagem';
 import HeaderMensagens from './HeaderMensagens';
+import MensagemContainer from './MensagemContainer';
+import EnviarMensagem from './EnviarMensagem';
 
 
 const Container: React.FC = () => {
@@ -48,6 +50,10 @@ const Container: React.FC = () => {
 
                 <div className={styles.bgRight + ` flex flex-col`}>
                     <HeaderMensagens />
+                    <div className={styles.bgMensagemContainer + ` flex-1`}>
+                        <MensagemContainer />
+                    </div>
+                    <EnviarMensagem />
                 </div>                
             </div>        
         </>
