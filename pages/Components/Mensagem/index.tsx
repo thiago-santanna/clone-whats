@@ -1,5 +1,6 @@
 import React from 'react';
 import ImageContato from '../ImageContato'
+import { FiCheck } from 'react-icons/fi'
 
 import styles from './mensagem.module.css'
 
@@ -20,7 +21,7 @@ const Mensagem = ({imagem, nome, statusMensagem, ultimaMensagem}: mensagemProps)
                 <div className="flex-1 items-center">
                     <span className="font-semibold text-sm">{nome}</span>
                     <div className="flex gap-1 items-center text-gray-400">
-                        <span>{statusMensagem}</span>
+                        <span className="flex flex-row"> <FiCheck /> </span>
                         <span className="font-thin text-sm">{ultimaMensagem}</span>
                     </div>
                 </div>
